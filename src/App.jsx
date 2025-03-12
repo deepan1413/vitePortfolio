@@ -35,7 +35,7 @@ export default function App() {
         </Text>
       </Float>
       <KameHouse />
-      <ScrollControls pages={25} damping={0.2}>
+     <ScrollControls pages={10} damping={2}>
         {/* <OrbitControls
           enableZoom={true}
           onChange={(e) => {
