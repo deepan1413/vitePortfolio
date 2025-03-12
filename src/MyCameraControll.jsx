@@ -86,12 +86,7 @@ export default function MyCameraScroll(props) {
       },
       "<"
     );
-    // tlRef.current.to(camera.position, {
-    //   duration: 2,
-    //   x: 2.3,
-    //   y: 1.6,
-    //   z: -0.8,
-    // });
+    
 
     tlRef.current.to(camera.position, {
       duration: 2,
@@ -149,7 +144,7 @@ export default function MyCameraScroll(props) {
       opacity: 0,
     });
     tlRef.current.to(camera.position, {
-      duration: 2,
+      duration: 1,
       // x: 3.5,
       // y: 3,
       // z: 1,
