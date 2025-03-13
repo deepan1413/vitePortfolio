@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import { Canvas } from "@react-three/fiber";
@@ -38,6 +39,7 @@ createRoot(document.getElementById("root")).render(
       {/* <Loader/> */}
         <App />
       </Suspense>
+      <Analytics/>
     </Canvas>
   </StrictMode>
 );
